@@ -1,0 +1,99 @@
+body {
+    background-color: teal;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+caption {
+    color: white;
+}
+
+th {
+    border: 2px solid black;
+    width: 200px;
+    height: 80px;
+}
+
+td {
+    border: 2px solid black;
+    width: 200px;
+    height: 80px;
+}
+
+img {
+    max-width: 200;
+    max-height: 80px;
+}
+
+/* BREAKPOINT */
+
+@media (max-width: 768px) {
+    
+    body {
+        margin-top: 9rem;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 520px) {
+    
+    Body {
+        margin-top: 9rem;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 462px) {
+    
+    body {
+        margin-top: 9rem;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 371px) {
+    html {
+        font-size: 57%;
+    }
+    
+    body {
+        margin-top: 9rem;
+        justify-content: center;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        text-align: center;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 55%;
+    }
+    
+    body {
+        margin-top: 9rem;
+        justify-content: center;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        text-align: center;
+        height: fit-content;
+    }
+}
